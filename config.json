@@ -1,0 +1,155 @@
+{
+    "prefix": "!",
+    "token": "",
+    "embeds": {
+        "embedFooter": "",
+        "embedSuccessColor": "",
+        "embedErrorColor": "",
+        "embedNeutralColor": "",
+        "noPermissionEmbed": {
+            "title": "Error",
+            "text": "You do not have the required permission to use that command!"
+        },
+        "invalidColorError": {
+            "title": "Error",
+            "text": "You did not specify a valid 6 or 3 character hex value for the embed's color!"
+        },
+        "noArgumentsError": {
+            "title": "Error",
+            "text": "You did not specify any arguments for that command! Proper usage: `%usage%`"
+        },
+        "verificationEmbed": {
+            "title": "Verify",
+            "text": "Hello! To gain access to the rest of the server, please click on the button below! This will prove you are not a bot! Thanks!"
+        },
+        "joinMessageEmbed": {
+            "title": "Welcome!",
+            "text": "Welcome to the server %user%!"
+        },
+        "leaveMessageEmbed": {
+            "title": "Goodbye!",
+            "text": "%user% has left the server!"
+        },
+        "helpEmbed": {
+            "title": "All Commands",
+            "text": "%commands%"
+        },
+        "ticketEmbed": {
+            "title": "Ticket",
+            "text": "Use the button below to open up a new ticket!"
+        },
+        "newTicketEmbed": {
+            "title": "New Ticket",
+            "text": "Thanks for opening a ticket %user%! Please wait while we find someone to assist you!"
+        },
+        "noUserEmbed": {
+            "title": "Error",
+            "text": "You have not mentioned a valid user or included a valid user ID!"
+        },
+        "higherRoleErrorEmbed": {
+            "title": "Error",
+            "text": "You cannot punish this user, they are a higher role than you!"
+        },
+        "embedKickSuccess": {
+            "title": "User Kicked",
+            "text": "%user% was successfully kicked for reason `%reason%`!"
+        },
+        "embedBanSuccess": {
+            "title": "User Banned",
+            "text": "%user% was successfully banned for reason `%reason%`!"
+        },
+        "slowmodeSuccess": {
+            "title": "Slowmode Changed",
+            "text": "Successfully set the slowmode to %time% seconds in this channel!"
+        },
+        "muteSuccessIndefinite": {
+            "title": "User Muted",
+            "text": "Successfully muted user %user%!"
+        },
+        "muteSuccessTimed": {
+            "title": "User Muted",
+            "text": "Successfully muted user %user% for %time%!"
+        },
+        "alreadyMuted": {
+            "title": "Error",
+            "text": "That user is already muted!"
+        },
+        "unmuteSuccess": {
+            "title": "User Unmuted",
+            "text": "Successfully unmuted user %user%!"
+        },
+        "notMuted": {
+            "title": "Error",
+            "text": "That user is not muted!"
+        },
+        "reviewEmbed": {
+            "title": "New Review",
+            "text": "User - %user%\n\n%stars%\n%review%"
+        },
+        "noReviewText": {
+            "title": "Error",
+            "text": "You did not specify a review message!"
+        },
+        "invalidStarsAmount": {
+            "title": "Error",
+            "text": "You did not specify a valid number of stars, from 1-5!"
+        },
+        "notVipError": {
+            "title": "Error",
+            "text": "You must be VIP to use this command!"
+        },
+        "successAdd": {
+            "title": "User Added",
+            "text": "%user% was successfully added to ticket %ticket%!"
+        },
+        "errorNoChannel": {
+            "title": "Error",
+            "text": "You did not specify a channel!"
+        },
+        "errorNoUser": {
+            "title": "Error",
+            "text": "You did not specify a user!"
+        },
+        "successRemove": {
+            "title": "User Removed",
+            "text": "%user% was successfully removed from ticket %ticket%!"
+        },
+        "onCooldown": {
+            "title": "Error",
+            "text": "That command is on cooldown!"
+        }
+    },
+    "buttons": {
+        "verificationButton": {
+            "style": "green",
+            "emoji": "✅",
+            "label": "Verify"
+        },
+        "ticketButtonGeneral": {
+            "style": "green",
+            "emoji": "🎟️",
+            "label": "General"
+        },
+        "ticketButtonPayment": {
+            "style": "blurple",
+            "emoji": "💸",
+            "label": "Payment"
+        }
+    },
+    "general": {
+        "guildId": "856311520321470545",
+        "joinRoleId": "",
+        "verifiedRoleId": "856318525530308629",
+        "welcomeMsgChannelId": "",
+        "ticketCategoryId": "",
+        "ticketPrefix": "",
+        "mutedRoleId": "856645188479221770",
+        "vipRoleId": "856318525530308629",
+        "vipVoiceChannelId": "856738736230498355",
+        "vipVoiceChannelFormat": "vip's - %count%",
+        "reviewChannelId": "",
+        "staffRoleId": "856318525530308629",
+        "vouchCooldown": "3d",
+        "commandDeleteTimer": "5s"
+    }
+}
